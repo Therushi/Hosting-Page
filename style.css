@@ -325,3 +325,60 @@
 .social {
   margin-top: 10px;
 }
+@media screen and (max-width : 678px) {
+  .header-list{
+    display: none;
+  }
+  .header{
+    padding: 5%;
+  }
+  .logo img{
+    width: 100px;
+  }
+
+  .main1,.main3{
+    flex-direction: column-reverse;
+  }
+  .heading{
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .heading h5{
+    font-size: 30px;
+  }
+  .main2,.main4{
+    flex-direction: column;
+  }
+  .main4{
+    text-align: center;
+  }
+  .main4 .bold{
+    font-size: 30px;
+  }
+  .main4 .para{
+    width: 200px;
+    font-size: 16px;
+  }
+  .cards{
+    flex-direction: column;
+  }
+  .main7 .cards .card{
+    width: 300px;
+  }
+  .main7 .cards .card h4{
+    width: 250px;
+  }
+  .main8{
+    flex-direction: column;
+  }
+  .main8 .right{
+    margin-top: 20px;
+  }
+  .footer .flex{
+    flex-direction: column;
+  }
+  .footer{
+    margin-top: 10px;
+  }
+}
